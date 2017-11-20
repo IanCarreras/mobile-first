@@ -1,0 +1,15 @@
+{
+  "name": "mobile-responsive",
+  "version": "1.0.0",
+  "description": "mobile first website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Carreras",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  }
+}
