@@ -8,6 +8,10 @@
     padding: 0 1.8125rem 1px 1.8125rem;
   }
 
+  &--last {
+    margin-bottom: 0;
+  }
+
   &__photo {
     border-radius: 80px;
     overflow: hidden;
@@ -31,12 +35,7 @@
     color: $mainOrange;
     text-align: center;
     font-weight: 400;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin: .25rem 0 1rem 0;
   }
-
-  &--last {
-    margin-bottom: 0;
-  }
-
 }
