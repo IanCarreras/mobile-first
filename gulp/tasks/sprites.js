@@ -7,6 +7,13 @@ svg2png = require('gulp-svg2png')
 const config = {
   mode: {
     css: {
+      variables: {
+        replaceSvgWithPng: function() {
+          return function(sprite, render) {
+            return render(sprite).split('.sgv').join('.png')
+          }
+        }
+      },
       sprite: 'sprite.svg',
       render: {
         css: {
